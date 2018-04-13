@@ -41,12 +41,12 @@ To encode a given string with base32 encoding, you can use the `encode` flag:
 
 ```shell
 $ b32 encode "Example String"
-RXhhbXBsZSBTdHJpbmc=
+IV4GC3LQNRSSAU3UOJUW4ZY=
 ```
 
 To decode a given string that been base32 encoded there's the `decode` flag:
 
 ```shell
-$ b32 decode "RXhhbXBsZSBTdHJpbmc="
+$ b32 decode "IV4GC3LQNRSSAU3UOJUW4ZY="
 Example String
 ```
